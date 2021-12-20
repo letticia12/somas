@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Somas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Somas pares ou ímpares! </h1>
+    <form onsubmit="event.preventDefault(); enviar();">
+        <label>
+            <span>A</span>
+        </label>
+        <input id="par" type="text" name="par">
+
+        <label>
+            <span>B</span>
+        </label>
+        <input id="impar" type="text" name="impar">
+        <button>enviar</button>
+
+        <h1>Últimas somas:</h1>
+
+        <h1>Pares:</h1>
+        
+        <h1>ímpares:</h1>
+
+    </form>
+
+    <div id="numero"></div>
+    <script src="script.js"></script>
+
+</body>
+</html>
